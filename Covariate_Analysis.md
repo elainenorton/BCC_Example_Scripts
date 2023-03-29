@@ -5,7 +5,7 @@
 
 Note: GCTA and Plink use the same algorithim to create the GRM but plink would not read in the GCTA GRM so instead created the plink GRM to run the MDS plot
 
-> plink --dog  --bfile ./BCC_QC_BC --genome --out BC_BCC_Plink_GRM 
+> plink --dog  --bfile ./BCC_QC_BC --genome --out BC_BCC_Plink_GRM   
 > plink --dog --allow-no-sex --bfile ./BCC_QC_BCC --read-genome BC_BCC_Plink_GRM.genome --cluster --mds-plot 6 --out BC_BCC_Plink_MDS
 
 **Used R to create plots for visualization**
